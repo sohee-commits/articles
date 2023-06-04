@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Inconsolata', monospace;
+}
+
+menu > * {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-bottom: 1px solid #7c7c7c;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+body {
+    margin: 1em 3em;
+    font-size: large;
+}
+
+footer {
+    padding: 2em;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+footer a:hover {
+    text-decoration: overline;
+}
+
+/* TRANSLATOR */
+
+.translator {
+    margin-top: 3em;
+    text-align: right;
+}
+
+.goog-te-combo {
+    text-transform: uppercase !important;
+    font-size: 16px !important;
+    color: darkred !important;
+    border: none !important;
+    width: 8em !important;
+    background-color: transparent !important;
+    font-family: 'Inconsolata', monospace !important;
+}
+
+select option {
+    color: black !important;
+    font-size: 12px !important;
+}
+
+.skiptranslate span {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+#goog-gt-tt, .goog-te-balloon-frame
+{
+display: none !important;
+}
+
+.goog-text-highlight 
+{ 
+background: none !important;
+box-shadow: none !important;
+}

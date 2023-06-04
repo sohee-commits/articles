@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px solid #7c7c7c;
+}
+
+header > * {
+    padding: 1em;
+}
+
+header:first-of-type {
+    text-transform: uppercase;
+}
+
+header a {
+    text-decoration: overline;
+    color: #000;
+}
+
+body {
+    margin: 1em 3em;
+    font-size: large;
+}
+
+h1, h2 {
+    margin-top: 2em;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    margin: 1em;
+}
+
+.main-img {
+    background-image: url(./astronomy.jpg);
+    border-radius: 5pt;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ограничение высоты текста размером блока */
+.definition-text {height: block;}
+
+main a {
+    color: darkred;
+}
+
+footer {
+    padding: 2em;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+footer a:hover {
+    text-decoration: overline;
+}
+
+/* TRANSLATOR */
+
+.translator {
+    margin-top: 3em;
+    text-align: right;
+}
+
+.goog-te-combo {
+    text-transform: uppercase !important;
+    font-size: 16px !important;
+    color: darkred !important;
+    border: none !important;
+    width: 8em !important;
+    background-color: transparent !important;
+    font-family: 'Inconsolata', monospace !important;
+}
+
+select option {
+    color: black !important;
+    font-size: 12px !important;
+}
+
+.skiptranslate span {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+#goog-gt-tt, .goog-te-balloon-frame
+{
+display: none !important;
+}
+
+.goog-text-highlight 
+{ 
+background: none !important;
+box-shadow: none !important;
+}
+
